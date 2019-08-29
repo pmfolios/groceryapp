@@ -1,0 +1,23 @@
+/* Checkbox styling */
+input[type='checkbox'] {
+  transform: scale(2.65, 2.7);
+}
+
+/* amount and unit styling */
+.amount,
+.unit {
+  font-size: 0.75rem;
+}
+
+/* Hover styling for delete button */
+.hover-btn {
+  /* display: none; */
+  opacity: 0;
+  transition: 2s;
+}
+
+.row:hover > .hover-btn {
+  /* display: inline-block; */
+  opacity: 100;
+  /* margin: 0 2%; */
+}
